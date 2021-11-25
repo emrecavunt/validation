@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file="\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)" 
+
+touch $file
+
+cat > $file  <<- "EOF"
+Hello DevOps
+
